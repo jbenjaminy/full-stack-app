@@ -1,3 +1,5 @@
+import fetch from 'isomorphic-fetch';
+
 export const spamify_spam = () => ({
 	type: 'SPAMIFY_SPAM',
 })
